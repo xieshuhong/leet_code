@@ -4,7 +4,7 @@
 
 def wordBreak(s: str, wordDict: list[str]) -> bool:
     word_set = set(wordDict)  # Use a set for fast lookup
-    dp = [False] * (len(s) + 1)
+    dp = [False] * (len(s) + 1)  # the DP(Dynamic Programming) array is used to store whether the substring s[0:i] can be segmented into words from the dictionary
     dp[0] = True  # Base case: empty string
     
     print(dp)
