@@ -4,7 +4,7 @@ def canJump(nums) -> bool:
     print('goal', goal)
 
     # starting from the last index to the begining index
-    for i in range(len(nums)-2, -1, -1): 
+    for i in range(len(nums)-2, -1, -1):
         print('i', i, 'nums[i]', nums[i])
         if i + nums[i] >= goal:
             goal = i
