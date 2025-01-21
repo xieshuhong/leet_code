@@ -1,7 +1,7 @@
 
 def permute(nums, type) -> list:
     result = []
-    
+    print('resuluuuuuuuuuuu:', result)  
     print('type000000000000', type)
     # base case
     if (len(nums) == 1):
@@ -18,6 +18,8 @@ def permute(nums, type) -> list:
         print('back from base case--------------perms: ', perms, 'n', n, 'iiiiiiiiii', i)
         print('tttttttttttttttttttt', type)
         print('permsssssssssssssss: ', perms)
+        
+        print('resuliiiiiiiiiiiiii:', result)  
         for perm in perms:
             print('perm000: ', perm)
             print('n for perm in perms: ', n)
