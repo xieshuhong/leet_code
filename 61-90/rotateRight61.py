@@ -86,6 +86,7 @@ def print_linked_list(head: Optional[ListNode]) -> None:
 
 # Test the function
 if __name__ == "__main__":
+    
     # Input linked list and k
     input_list = [1, 2, 3, 4, 5]
     k = 2
@@ -95,6 +96,8 @@ if __name__ == "__main__":
 
     # Create a Solution instance and call rotateRight
     solution = Solution()
+    
+    
     rotated_head = solution.rotateRight(head, k)
 
     # Print the rotated linked list
